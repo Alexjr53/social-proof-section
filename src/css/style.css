@@ -12,14 +12,36 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .info-section{
     display: flex;
+    max-width: 60%;
+    background-color: aqua;
+}
+
+.info-section .info{
+    width: 50%;
+    padding: 0 12.5rem 0 1.5rem;
+    background-color: red;
+}
+
+.info-section .info .title{
+    font-size: 5.2rem;
+    font-weight: 700;
+}
+
+.info-section .info .description{
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    line-height: 2.5rem;
 }
 
 .info-section .ratings .stars{ 
     display: flex;
+    padding: 2rem;
+    background-color: white;
 }
 
 .comments-section{
