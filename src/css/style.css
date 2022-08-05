@@ -41,9 +41,20 @@ main{
 .info-section .ratings .stars{ 
     display: flex;
     padding: 2rem;
+    margin-top: 2rem;
     background-color: white;
 }
 
 .comments-section{
+    display: flex;
+}
+
+.comments-section .comments-container{
+    background-color: blue;
+    max-width: 35rem;
+    margin-right: 1rem;
+}
+
+.comments-section .comments-container .comment-creator{
     display: flex;
 }
