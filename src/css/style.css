@@ -1,0 +1,27 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url(../images/bg-pattern-top-desktop.svg) left top no-repeat, url(../images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-section{
+    display: flex;
+}
+
+.info-section .ratings .stars{ 
+    display: flex;
+}
+
+.comments-section{
+    display: flex;
+}
