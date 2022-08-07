@@ -12,49 +12,117 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 7.5rem;
     font-family: 'League Spartan', sans-serif;
 }
 
 .info-section{
     display: flex;
-    max-width: 60%;
-    background-color: aqua;
+    margin: 0 3rem;
 }
 
 .info-section .info{
-    width: 50%;
-    padding: 0 12.5rem 0 1.5rem;
-    background-color: red;
+    max-width: 56rem;
+    padding: 0 12.5rem 0 0;
 }
 
 .info-section .info .title{
     font-size: 5.2rem;
     font-weight: 700;
+    color: var(--primary-dark-color);
 }
 
 .info-section .info .description{
     font-size: 1.8rem;
-    margin-top: 3rem;
+    margin-top: 2.7rem;
     line-height: 2.5rem;
 }
 
 .info-section .ratings .stars{ 
     display: flex;
-    padding: 2rem;
-    margin-top: 2rem;
-    background-color: white;
+    align-items: center;
+    max-width: 44rem;
+    min-width: 44rem;
+    padding: 2rem 0 2rem 2rem;
+    margin-top: 2.4rem;
+    border-radius: 1rem;
+    gap: 0.8rem;
+    background-color: var(--neutral-soft-color);
+}
+
+.info-section .ratings .stars p{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-left: 2.4rem;
+    color: var(--primary-dark-color);
+}
+
+
+.info-section .ratings .review.stars{
+    margin-left: 2rem;
+}
+
+.info-section .ratings .report.stars{
+    margin: 1.8rem 0 0 6rem;
+    padding-left: 3rem; 
+}
+
+.info-section .ratings .best-tech.stars{
+    margin: 1.5rem 0 0 11rem;
+    padding-left: 2.8rem;
 }
 
 .comments-section{
     display: flex;
+    gap: 2.8rem;
 }
 
 .comments-section .comments-container{
-    background-color: blue;
+    background-color: var(--primary-dark-color);
     max-width: 35rem;
-    margin-right: 1rem;
+    max-height: 23rem;
+    border-radius: 1rem;
+}
+
+.comments-section .comments-container.middle{
+    margin-top: 1.6rem;
+}
+
+.comments-section .comments-container.right{
+    margin-top: 3.2rem;
 }
 
 .comments-section .comments-container .comment-creator{
     display: flex;
+    align-items: center;
+    padding: 3.8rem 3rem 0;
 }
+
+.comments-section .comments-container .comment-creator .creator-image{
+    border-radius: 50%;
+    width: 4rem;
+}
+
+.comments-section .comments-container .comment-creator .creator-info{
+    padding-left: 2.4rem;
+    text-align: center;
+}
+
+.comments-section .comments-container .comment-creator .creator-info .name{
+    color: var(--neutral-soft-color);
+    font-size: 1.7rem;
+}
+
+.comments-section .comments-container .comment-creator .creator-info .verified-stats{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: var(--primary-soft-color);
+}
+
+.comments-section .comments-container .comment{
+    color: var(--neutral-soft-color);
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    padding: 2.8rem 3rem 4rem;
+}
+
