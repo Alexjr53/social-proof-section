@@ -1,0 +1,54 @@
+@media(max-width:1080px){
+    .info-section .info{
+        max-width: 56rem;
+        padding-right: 1rem;
+    }
+
+    .comments-section .comments-container{
+        max-height: 25rem;
+    }
+}
+
+@media(max-width:980px){
+    .info-section{
+        flex-direction: column;
+        margin-top: 8rem;
+    }
+
+    .info-section .info{
+        max-width: 56rem;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .info-section .ratings{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-section .ratings .stars{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-section .ratings .stars p{
+        padding-top: 2rem;
+    }
+
+    .info-section .ratings .review.stars{
+        margin-left: 0;
+    }
+
+    .info-section .ratings .report.stars{
+        margin-left: 0;
+    }
+
+    .info-section .ratings .best-tech.stars{
+        margin-left: 0;
+    }
+
+    .comments-section{
+        flex-direction: column;
+    }
+}

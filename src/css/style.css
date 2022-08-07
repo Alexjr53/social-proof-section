@@ -12,18 +12,18 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 5rem;
     gap: 7.5rem;
     font-family: 'League Spartan', sans-serif;
 }
 
 .info-section{
     display: flex;
-    margin: 0 3rem;
 }
 
 .info-section .info{
     max-width: 56rem;
-    padding: 0 12.5rem 0 0;
+    padding-right: 12.5rem;
 }
 
 .info-section .info .title{
@@ -46,14 +46,18 @@ main{
     padding: 2rem 0 2rem 2rem;
     margin-top: 2.4rem;
     border-radius: 1rem;
-    gap: 0.8rem;
     background-color: var(--neutral-soft-color);
+}
+
+.info-section .ratings .stars .image-container{
+    display: flex;
+    gap: 0.8rem;
 }
 
 .info-section .ratings .stars p{
     font-size: 1.7rem;
     font-weight: 700;
-    padding-left: 2.4rem;
+    padding: 0 2.4rem 0 3.3rem;
     color: var(--primary-dark-color);
 }
 
