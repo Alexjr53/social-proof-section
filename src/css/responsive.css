@@ -7,9 +7,21 @@
     .comments-section .comments-container{
         max-height: 25rem;
     }
+
+    .comments-section .comments-container.middle{
+        min-height: 26rem;
+    }
+
+    .comments-section .comments-container.right{
+        min-height: 26rem;
+    }
 }
 
 @media(max-width:980px){
+    body{
+        background: url(../images/bg-pattern-top-mobile.svg) left top no-repeat, url(../images/bg-pattern-bottom-mobile.svg) right bottom no-repeat;
+    }
+    
     .info-section{
         flex-direction: column;
         margin-top: 8rem;
@@ -38,17 +50,90 @@
 
     .info-section .ratings .review.stars{
         margin-left: 0;
+        padding-left: 0;
     }
 
     .info-section .ratings .report.stars{
         margin-left: 0;
+        padding-left: 0;
     }
 
     .info-section .ratings .best-tech.stars{
         margin-left: 0;
+        padding-left: 0;
     }
 
     .comments-section{
         flex-direction: column;
+        margin-bottom: 5rem ;
+    }
+
+    .comments-section .comments-container{
+        max-width: 44rem;
+    }
+
+    .comments-section .comments-container.middle{
+        margin: 0;
+        min-height: 23rem;
+    }
+
+    .comments-section .comments-container.right{
+        margin: 0;
+        min-height: 23rem;
+    }
+}
+
+@media(max-width:485px){
+    .info-section .info .title{
+        font-size: 3.7rem;
+        padding: 0 3rem;
+    }
+
+    .info-section .info .description{
+        margin-top: 2rem;
+        padding: 0 3rem;
+    }
+
+    .info-section .ratings .stars{ 
+        min-width: 32rem;
+        padding: 1.5rem 0;
+    }
+
+    .info-section .ratings .stars.report{
+        margin-top: 1.2rem;
+    }
+
+    .info-section .ratings .stars.best-tech{
+        margin-top: 1.2rem;
+    }
+
+    .comments-section{
+       gap: 2rem;
+    }
+
+    .comments-section .comments-container{
+        min-height: 26rem;
+    }
+
+    .comments-section .comments-container.middle{
+        min-height: 27rem;
+    }
+
+    .comments-section .comments-container.right{
+        min-height: 27rem;
+    }
+}
+
+@media(max-width:375px){
+    .comments-section .comments-container{
+        min-height: 29rem;
+    }
+
+    .comments-section .comments-container.middle{
+        min-height: 29rem;
+    }
+
+    .comments-section .comments-container.right{
+        min-height: 29rem;
     }
 }
