@@ -21,6 +21,10 @@
     body{
         background: url(../images/bg-pattern-top-mobile.svg) left top no-repeat, url(../images/bg-pattern-bottom-mobile.svg) right bottom no-repeat;
     }
+
+    main{
+        gap: 5rem;
+    }
     
     .info-section{
         flex-direction: column;
@@ -91,7 +95,6 @@
 
     .info-section .info .description{
         margin-top: 2rem;
-        padding: 0 3rem;
     }
 
     .info-section .ratings .stars{ 
@@ -116,24 +119,20 @@
     }
 
     .comments-section .comments-container.middle{
-        min-height: 27rem;
+        min-height: 26rem;
     }
 
     .comments-section .comments-container.right{
-        min-height: 27rem;
+        min-height: 26rem;
+    }
+
+    .comments-section .comments-container .comment{
+        padding: 2.8rem 2.5rem 4rem 3rem;
     }
 }
 
 @media(max-width:375px){
-    .comments-section .comments-container{
-        min-height: 29rem;
-    }
-
-    .comments-section .comments-container.middle{
-        min-height: 29rem;
-    }
-
-    .comments-section .comments-container.right{
-        min-height: 29rem;
+    main{
+        margin: 0 3rem;
     }
 }
