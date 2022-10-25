@@ -1,6 +1,6 @@
-# Frontend Mentor - Solução do Social proof section
+# Desafio Frontend Mentor - Solução do Social proof section
 
-Esta é uma solução para o [Desafio Social proof section no Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o [Desafio Social proof section no Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
 
 [![NPM](https://img.shields.io/github/license/Alexjr53/3-column-preview-card-component)](https://github.com/Alexjr53/Profile-card-component/blob/main/LICENSE)
 
@@ -22,18 +22,18 @@ Esta é uma solução para o [Desafio Social proof section no Frontend Mentor](h
 
 Os usuários devem ser capazes de:
 
-- Visualize o layout ideal para a seção, dependendo do tamanho da tela do dispositivo
+- criar o layout ideal para a seção, dependendo do tamanho da tela do dispositivo
 
 ### Screenshot
 #### Desktop
-![social proof section](src/images/screenshot-desktop.png)
+![social proof section](src/design/screenshot-desktop.png)
 
 #### Mobile
-![social proof section](src/images/screenshot-mobile.png)
+![social proof section](src/design/screenshot-mobile.png)
 
 ### Links
 
-- Solução URL: [social proof section - Frontend mentor](https://www.frontendmentor.io/solutions/social-proof-section-F0UkttKoKD)
+- Solução do desafio: [social proof section - Frontend mentor](https://www.frontendmentor.io/solutions/social-proof-section-F0UkttKoKD)
 - URL da página: [social proof section](https://alexjr53.github.io/social-proof-section/) 
 
 ## Meu processo

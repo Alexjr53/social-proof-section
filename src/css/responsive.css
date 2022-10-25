@@ -4,16 +4,8 @@
         padding-right: 1rem;
     }
 
-    .comments-section .comments-container{
-        max-height: 25rem;
-    }
-
-    .comments-section .comments-container.middle{
-        min-height: 26rem;
-    }
-
-    .comments-section .comments-container.right{
-        min-height: 26rem;
+    .comments-section .comments-card{
+        max-height: 26rem;
     }
 }
 
@@ -46,25 +38,12 @@
     .info-section .ratings .stars{
         display: flex;
         flex-direction: column;
+        margin-left: 0;
+        padding-left: 0;
     }
 
     .info-section .ratings .stars p{
         padding-top: 2rem;
-    }
-
-    .info-section .ratings .review.stars{
-        margin-left: 0;
-        padding-left: 0;
-    }
-
-    .info-section .ratings .report.stars{
-        margin-left: 0;
-        padding-left: 0;
-    }
-
-    .info-section .ratings .best-tech.stars{
-        margin-left: 0;
-        padding-left: 0;
     }
 
     .comments-section{
@@ -72,18 +51,9 @@
         margin-bottom: 5rem ;
     }
 
-    .comments-section .comments-container{
+    .comments-section .comments-card{
         max-width: 44rem;
-    }
-
-    .comments-section .comments-container.middle{
         margin: 0;
-        min-height: 23rem;
-    }
-
-    .comments-section .comments-container.right{
-        margin: 0;
-        min-height: 23rem;
     }
 }
 
@@ -102,32 +72,8 @@
         padding: 1.5rem 0;
     }
 
-    .info-section .ratings .stars.report{
-        margin-top: 1.2rem;
-    }
-
-    .info-section .ratings .stars.best-tech{
-        margin-top: 1.2rem;
-    }
-
     .comments-section{
        gap: 2rem;
-    }
-
-    .comments-section .comments-container{
-        min-height: 26rem;
-    }
-
-    .comments-section .comments-container.middle{
-        min-height: 26rem;
-    }
-
-    .comments-section .comments-container.right{
-        min-height: 26rem;
-    }
-
-    .comments-section .comments-container .comment{
-        padding: 2.8rem 2.5rem 4rem 3rem;
     }
 }
 

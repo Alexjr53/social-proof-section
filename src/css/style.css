@@ -1,12 +1,9 @@
-html{
-    font-size: 62.5%;
-}
-
 body{
     background: url(../images/bg-pattern-top-desktop.svg) left top no-repeat, url(../images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
 }
 
 main{
+    font-family: 'League Spartan', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,7 +11,6 @@ main{
     justify-content: center;
     margin: 0 5rem;
     gap: 7.5rem;
-    font-family: 'League Spartan', sans-serif;
 }
 
 .info-section{
@@ -44,12 +40,12 @@ main{
     max-width: 44rem;
     min-width: 44rem;
     padding: 2rem 0 2rem 2rem;
-    margin-top: 2.4rem;
+    margin-top: 1.8rem;
     border-radius: 1rem;
     background-color: var(--neutral-soft-color);
 }
 
-.info-section .ratings .stars .image-container{
+.info-section .ratings .stars .images-container{
     display: flex;
     gap: 0.8rem;
 }
@@ -62,18 +58,16 @@ main{
 }
 
 
-.info-section .ratings .review.stars{
-    margin-left: 2rem;
+.info-section .ratings .review{
+    margin: 2.4rem 0 0 2rem;
 }
 
-.info-section .ratings .report.stars{
-    margin: 1.8rem 0 0 6rem;
-    padding-left: 3rem; 
+.info-section .ratings .report{
+    margin-left: 6rem;
 }
 
-.info-section .ratings .best-tech.stars{
-    margin: 1.5rem 0 0 11rem;
-    padding-left: 2.8rem;
+.info-section .ratings .best-tech{
+    margin-left: 10rem;
 }
 
 .comments-section{
@@ -81,49 +75,49 @@ main{
     gap: 2.8rem;
 }
 
-.comments-section .comments-container{
+.comments-section .comments-card{
     background-color: var(--primary-dark-color);
     max-width: 35rem;
     max-height: 23rem;
     border-radius: 1rem;
 }
 
-.comments-section .comments-container.middle{
+.comments-section .middle{
     margin-top: 1.6rem;
 }
 
-.comments-section .comments-container.right{
+.comments-section .right{
     margin-top: 3.2rem;
 }
 
-.comments-section .comments-container .comment-creator{
+.comments-section .comments-card .comment-creator{
     display: flex;
     align-items: center;
     padding: 3.8rem 3rem 0;
 }
 
-.comments-section .comments-container .comment-creator .creator-image{
+.comments-section .comments-card .comment-creator .creator-image{
     border-radius: 50%;
     width: 4rem;
 }
 
-.comments-section .comments-container .comment-creator .creator-info{
+.comments-section .comments-card .comment-creator .creator-info{
     padding-left: 2.4rem;
     text-align: center;
 }
 
-.comments-section .comments-container .comment-creator .creator-info .name{
+.comments-section .comments-card .comment-creator .creator-info .name{
     color: var(--neutral-soft-color);
     font-size: 1.7rem;
 }
 
-.comments-section .comments-container .comment-creator .creator-info .verified-stats{
+.comments-section .comments-card .comment-creator .creator-info .verified-stats{
     font-size: 1.7rem;
     font-weight: 400;
     color: var(--primary-soft-color);
 }
 
-.comments-section .comments-container .comment{
+.comments-section .comments-card .comment{
     color: var(--neutral-soft-color);
     font-size: 1.7rem;
     line-height: 2.2rem;
