@@ -2,7 +2,7 @@
 
 Esta é uma solução para o [Desafio Social proof section no Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
 
-[![NPM](https://img.shields.io/github/license/Alexjr53/3-column-preview-card-component)](https://github.com/Alexjr53/Profile-card-component/blob/main/LICENSE)
+[![NPM](https://img.shields.io/bower/l/MI)](https://github.com/Alexjr53/social-proof-section/blob/main/LICENSE)
 
 ## Índice
 
