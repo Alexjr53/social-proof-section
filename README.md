@@ -33,8 +33,9 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução do desafio: [social proof section - Frontend mentor](https://www.frontendmentor.io/solutions/social-proof-section-F0UkttKoKD)
+- Solução do desafio no frontend mentor: [social proof section - Frontend mentor](https://www.frontendmentor.io/solutions/social-proof-section-F0UkttKoKD)
 - URL da página: [social proof section](https://alexjr53.github.io/social-proof-section/) 
+- Repositório do projeto no GitHub: [social proof section](https://github.com/Alexjr53/social-proof-section)
 
 ## Meu processo
 
