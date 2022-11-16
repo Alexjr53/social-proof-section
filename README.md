@@ -16,7 +16,7 @@ Esta é uma solução para o [Desafio Social proof section no Frontend Mentor](h
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)
 
-  ## Visão geral
+## Visão geral
 
 ### Desafio
 
